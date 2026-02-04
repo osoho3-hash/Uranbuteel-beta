@@ -1,6 +1,8 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL as string
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string
+// --- ЭНД ТҮР ЗУУР ШУУД ХАЯГАА БИЧЬЕ ---
+// Supabase-аас авсан хаягаа доорх хашилтан дотор хуулж тавь
+const supabaseUrl = "https://таны-төслийн-id.supabase.co" 
+const supabaseAnonKey = "таны-маш-урт-anon-key-энд"
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
